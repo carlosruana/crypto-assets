@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "KucoinApp",
-    "description": "A very interesting project.",
+    "description": "Portfolio for Kucoin Cryptos",
     "slug": "KucoinApp",
     "privacy": "public",
     "sdkVersion": "25.0.0",
@@ -16,6 +16,9 @@
     },
     "ios": {
       "supportsTablet": true
+    },
+    "android": {
+      "package": "com.bluekondor.kucoinapp"
     }
   }
 }

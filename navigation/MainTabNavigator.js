@@ -14,7 +14,7 @@ export default TabNavigator(
 	{
 		Portfolio: {
 			screen: PortfolioScreen,
-		},
+		}/*,
 		Home: {
 			screen: HomeScreen,
 		},
@@ -23,7 +23,7 @@ export default TabNavigator(
 		},
 		Settings: {
 			screen: SettingsScreen,
-		},
+		},*/
 	},
 	{
 		navigationOptions: ({ navigation }) => ({
