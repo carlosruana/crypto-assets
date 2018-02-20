@@ -53,4 +53,7 @@ export default class KucoinApi  {
 		return this._doRequest('/v1/account/BTC/balance');
 
 	}
+	getCoins() {
+		return this._doRequest('/v1/market/open/symbols');
+	}
 };
